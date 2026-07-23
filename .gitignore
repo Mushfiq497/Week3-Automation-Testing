@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore dependencies
 **/node_modules/
 
@@ -12,3 +13,13 @@
 # OS files
 .DS_Store
 Thumbs.db
+=======
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+>>>>>>> 521fdef6b5c9f7cb17cd3799e235a7e64ebc4e8b
