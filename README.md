@@ -1,53 +1,46 @@
-# Week 3 - Playwright Automation Testing
+# Week 3 Automation Testing Assignment
 
-## Project Overview
+## Overview
 
-This project was completed as part of the SQA Internship Program Week 3 assignment.
+This repository contains my Week 3 Automation Testing Internship Assignment submitted as part of the SQA Internship Program.
 
-### Website Tested
+The repository includes automation projects created using different testing tools and frameworks.
 
-https://www.saucedemo.com
-
-## Technology Used
+## Tools Used
 
 - Playwright
-- JavaScript
-- Cursor IDE
-- GitHub
+- Cypress
+- Selenium WebDriver
+- Robot Framework
+- Postman API Testing
+- Appium (Setup Attempt)
 
-## Test Scenarios
+## Repository Structure
 
-1. Website Load and Title Verification
-2. Valid Login
-3. Invalid Login
-4. Product Navigation
-5. Add Product to Cart
-
-## Framework
-
-- Playwright Test Runner
-- Page Object Model (POM)
-
-## Browser
-
-- Chromium
-
-## Run the Project
-
-Install dependencies:
-
-```bash
-npm install
+```
+Week3-Automation-Testing
+│
+├── Playwright
+├── Cypress
+├── Selenium
+├── RobotFramework
+├── Postman
+├── Appium
+├── Reports
+└── Documentation
 ```
 
-Run tests:
+## Features
 
-```bash
-npx playwright test --project=chromium
-```
+- UI Automation
+- API Automation
+- Assertions
+- Page Object Model
+- Environment Variables
+- Collection Runner
+- Test Reports
 
-Open HTML Report:
+## Author
 
-```bash
-npx playwright show-report
-```
+Muhammad Mushfiq
+BS Software Engineering

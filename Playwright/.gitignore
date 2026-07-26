@@ -1,8 +1,17 @@
+# Ignore dependencies
+**/node_modules/
 
-# Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+# Cypress artifacts
+**/cypress/videos/
+**/cypress/screenshots/
+
+# Playwright artifacts
+**/playwright-report/
+**/test-results/
+
+# Logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

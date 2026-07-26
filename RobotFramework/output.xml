@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.6 on win32)" generated="2026-07-24T23:39:11.232408" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Users\Mushfiq\Desktop\Week3-Automation-Testing\RobotFramework\Login.robot">
+<test id="s1-t1" name="Valid Login Test" line="11">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-24T23:39:12.015724" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-24T23:39:12.014889" elapsed="128.500255"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-24T23:41:20.517269" elapsed="0.106491"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-24T23:41:22.635648" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-24T23:41:20.625919" elapsed="2.010765"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-24T23:41:22.642010" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<arg>id:user-name</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-24T23:41:22.638470" elapsed="0.221817"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-24T23:41:23.861625" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-24T23:41:22.860821" elapsed="1.000989"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-24T23:41:23.863005" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-24T23:41:23.862309" elapsed="0.118302"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-24T23:41:24.982154" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-24T23:41:23.981127" elapsed="1.001771"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-24T23:41:24.986231" level="INFO">Clicking button 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-24T23:41:24.984740" elapsed="0.208510"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-24T23:41:28.195106" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-24T23:41:25.193679" elapsed="3.002074"/>
+</kw>
+<kw name="Location Should Contain" owner="SeleniumLibrary">
+<msg time="2026-07-24T23:41:28.216022" level="INFO">Current location contains 'inventory'.</msg>
+<arg>inventory</arg>
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<status status="PASS" start="2026-07-24T23:41:28.197644" elapsed="0.018936"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-07-24T23:41:33.218976" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-07-24T23:41:28.217550" elapsed="5.001697"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-24T23:41:33.220133" elapsed="2.340047"/>
+</kw>
+<status status="PASS" start="2026-07-24T23:39:12.013590" elapsed="143.546957"/>
+</test>
+<status status="PASS" start="2026-07-24T23:39:11.236256" elapsed="144.327851"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login" id="s1" pass="1" fail="0" skip="0">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
